@@ -1,6 +1,6 @@
 # Use the Vapor image because its easy
 
-FROM vapor/swift:5.3 as build
+FROM swift:5.3 as build
 WORKDIR /build
 
 # Copy entire repo into container
