@@ -6,11 +6,12 @@ WORKDIR /build
 # Copy entire repo into container
 COPY . .
 
+RUN apt-get install -y libssl-dev openssl
+
 RUN swift build \
     --enable-test-discovery \
     -c release \
     -Xswiftc -g
-
 
 FROM vapor/ubuntu:18.04
 WORKDIR /run
