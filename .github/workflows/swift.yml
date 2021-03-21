@@ -11,6 +11,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Build
+    - name: Setup Swift
       uses: fwal/setup-swift@v1
+      with:
+        swift-version: "5.3"
+    - name: Build
       run: swift build -c release -Xswiftc -g
