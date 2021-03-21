@@ -11,15 +11,6 @@
         }
       },
       {
-        "package": "SSCommonCrypto",
-        "repositoryURL": "https://github.com/Azoy/common-crypto-spm.git",
-        "state": {
-          "branch": null,
-          "revision": "7e9904a0d0c0024a86ab6fe5698ffc8f7799efb4",
-          "version": "1.2.0"
-        }
-      },
-      {
         "package": "fluent-kit",
         "repositoryURL": "https://github.com/vapor/fluent-kit.git",
         "state": {
@@ -30,7 +21,7 @@
       },
       {
         "package": "fluent-sqlite-driver",
-        "repositoryURL": "https://github.com/vapor/fluent-sqlite-driver",
+        "repositoryURL": "https://github.com/vapor/fluent-sqlite-driver.git",
         "state": {
           "branch": null,
           "revision": "6f29f6f182c812075f09c7575c18ac5535c26824",
@@ -48,7 +39,7 @@
       },
       {
         "package": "Puppy",
-        "repositoryURL": "https://github.com/sushichop/Puppy",
+        "repositoryURL": "https://github.com/sushichop/Puppy.git",
         "state": {
           "branch": null,
           "revision": "4b765930fd8987c1983dff2f14ff316c308dd304",
@@ -84,20 +75,11 @@
       },
       {
         "package": "Starscream",
-        "repositoryURL": "https://github.com/Azoy/Starscream.git",
+        "repositoryURL": "https://github.com/tesseract-one/Starscream.git",
         "state": {
-          "branch": null,
-          "revision": "a21fca8e9dc83cf3a88a3ba9be15ff17a7e4e8d6",
-          "version": "3.0.5"
-        }
-      },
-      {
-        "package": "swift-log",
-        "repositoryURL": "https://github.com/apple/swift-log",
-        "state": {
-          "branch": null,
-          "revision": "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
-          "version": "1.4.2"
+          "branch": "master",
+          "revision": "44e25dd0af700a4da61d293eca8a4e1b90da97fc",
+          "version": null
         }
       },
       {
@@ -111,20 +93,11 @@
       },
       {
         "package": "Sword",
-        "repositoryURL": "https://github.com/Azoy/Sword",
+        "repositoryURL": "https://github.com/omarestrella/Sword.git",
         "state": {
-          "branch": "master",
-          "revision": "01185a232ea9a33f67711550f77a7a8dbca2dc78",
+          "branch": "upgrade-starscream",
+          "revision": "72a06d86e314bc3897e51563db7e8aa435eb227c",
           "version": null
-        }
-      },
-      {
-        "package": "SSCZLib",
-        "repositoryURL": "https://github.com/Azoy/zlib-spm.git",
-        "state": {
-          "branch": null,
-          "revision": "f92fc0658af4cd9b11f233e9c02786ecbf75f1ee",
-          "version": "1.2.0"
         }
       }
     ]

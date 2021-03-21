@@ -6,7 +6,11 @@ WORKDIR /build
 # Copy entire repo into container
 COPY . .
 
-RUN apt-get install -y libssl-dev openssl
+RUN apt-get update
+RUN apt-get install -y libssl1.0-dev \
+  zlib1g-dev \
+  sqlite3 \
+  libsqlite3-dev
 
 RUN swift build \
     --enable-test-discovery \
